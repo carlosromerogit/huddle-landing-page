@@ -581,10 +581,6 @@ video {
   margin-right: auto;
 }
 
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
 .mb-16 {
   margin-bottom: 4rem;
 }
@@ -619,26 +615,6 @@ video {
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-52 {
-  height: 13rem;
-}
-
-.h-36 {
-  height: 9rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-40 {
-  height: 10rem;
 }
 
 .w-11\/12 {
@@ -759,57 +735,32 @@ video {
   background-color: rgb(245 250 255 / var(--tw-bg-opacity));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/public\/images\/bg-section-top-desktop-1\.svg\'\)\] {
-  background-image: url('/public/images/bg-section-top-desktop-1.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/ico-email\.svg\'\)\] {
-  background-image: url('/public/images/ico-email.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/icom-email\.svg\'\)\] {
-  background-image: url('/public/images/icom-email.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/icon-email\.svg\'\)\] {
-  background-image: url('/public/images/icon-email.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/bg-section-top-desktop-1\'\)\] {
-  background-image: url('/public/images/bg-section-top-desktop-1');
-}
-
-.bg-\[url\(\'\/public\/images\/illustration-grow-together\.svg\'\)\] {
-  background-image: url('/public/images/illustration-grow-together.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/bg-section-top-desktop-2\.svg\'\)\] {
-  background-image: url('/public/images/bg-section-top-desktop-2.svg');
-}
-
-.bg-\[url\(\'\/public\/images\/bg-section-bottom-desktop-2\.svg\'\)\] {
-  background-image: url('/public/images/bg-section-bottom-desktop-2.svg');
+.bg-\[url\(\'\/public\/images\/bg-footer-top-desktop\.svg\'\)\] {
+  background-image: url('/public/images/bg-footer-top-desktop.svg');
 }
 
 .bg-\[url\(\'\/public\/images\/bg-section-bottom-desktop-1\.svg\'\)\] {
   background-image: url('/public/images/bg-section-bottom-desktop-1.svg');
 }
 
-.bg-\[url\(\'\/public\/images\/bg-footer-top-desktop-1\.svg\'\)\] {
-  background-image: url('/public/images/bg-footer-top-desktop-1.svg');
+.bg-\[url\(\'\/public\/images\/bg-section-bottom-desktop-2\.svg\'\)\] {
+  background-image: url('/public/images/bg-section-bottom-desktop-2.svg');
 }
 
-.bg-\[url\(\'\/public\/images\/bg-footer-top-desktop\.svg\'\)\] {
-  background-image: url('/public/images/bg-footer-top-desktop.svg');
+.bg-\[url\(\'\/public\/images\/bg-section-top-desktop-1\.svg\'\)\] {
+  background-image: url('/public/images/bg-section-top-desktop-1.svg');
+}
+
+.bg-\[url\(\'\/public\/images\/bg-section-top-desktop-2\.svg\'\)\] {
+  background-image: url('/public/images/bg-section-top-desktop-2.svg');
 }
 
 .bg-contain {
   background-size: contain;
+}
+
+.bg-cover {
+  background-size: cover;
 }
 
 .bg-bottom {
@@ -854,6 +805,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -884,29 +840,9 @@ video {
   padding-bottom: 2rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.pb-32 {
-  padding-bottom: 8rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pb-28 {
-  padding-bottom: 7rem;
-}
-
-.pb-24 {
+.py-24 {
+  padding-top: 6rem;
   padding-bottom: 6rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
 }
 
 .text-center {
@@ -980,13 +916,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.g {
-  verydarkcyan: #00252e;
-  paleblue: hsl(207, 100%, 98%);
-  pink: hsl(322, 100%, 66%);
-  lightpink: hsl(321, 100%, 78%);
 }
 
 .hover\:border-accent-100:hover {
@@ -1083,6 +1012,10 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .sm\:bg-cover {
+    background-size: cover;
+  }
+
   .sm\:pr-10 {
     padding-right: 2.5rem;
   }
@@ -1123,6 +1056,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:hidden {
+    display: none;
+  }
+
   .xl\:max-w-5xl {
     max-width: 64rem;
   }
@@ -1130,5 +1067,11 @@ video {
   .xl\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:hidden {
+    display: none;
   }
 }
